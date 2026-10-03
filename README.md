@@ -2,7 +2,7 @@
 
 **Status: planning.** There is no code yet. The plugin is planned in a private repository and will be built after the product it serves is ready to go live.
 
-One WordPress plugin to keep a server-side page cache in step with the site's content: purge on content changes, purge by hand, and manage the cache from WP Admin, WP-CLI and `wp-config.php` constants. One core plus a driver for each cache: Caddy with Souin, nginx FastCGI cache and Vinyl Cache are planned, with Cloudflare and Redis Object Cache integration.
+One WordPress plugin to keep a server-side page cache in step with the site's content: purge on content changes, purge by hand, and manage the cache from WP Admin, WP-CLI and `wp-config.php` constants. One core plus a driver for each cache: Caddy with Souin and nginx FastCGI cache are planned, with Cloudflare and Redis Object Cache integration.
 
 It is built for the two SitesPanel products, where it is optional: installed when someone needs control from inside WordPress. The repository is public under the GPL for anyone who wants to read or use it, but outside users get no support and no features of their own.
 
